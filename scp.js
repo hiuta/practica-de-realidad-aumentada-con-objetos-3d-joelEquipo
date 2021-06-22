@@ -1,7 +1,7 @@
-window.onload = () => {
+wwindow.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
     //button.innerText = '﹖';
-    button.innerText = 'Cambio';
+    button.innerText = 'Cambiar';
     let places = staticLoadPlaces();
    renderPlaces(places);
 };
@@ -22,13 +22,13 @@ function staticLoadPlaces() {
 var models = [
     {
         url: 'blusa1.glb',
-        scale: '30 30 30'
+        scale: '0.5 0.5 0.5',
         info: 'Blusa1',
         rotation: '0 180 0',
     },
     {
         url: 'blusars.glb',
-        scale: '30 30 30',
+        scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
         info: 'Blusa2',
     },
