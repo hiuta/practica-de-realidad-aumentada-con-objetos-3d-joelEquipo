@@ -22,14 +22,14 @@ function staticLoadPlaces() {
 var models = [
     {
         url: 'blusa1.glb',
-        scale: '30 30 30'
+        scale: '90 90 90'
         info: 'Blusa1',
-        rotation: '0 10 0',
+        rotation: '90 10 90',
     },
     {
         url: 'blusars.glb',
-        scale: '10 10 10',
-        rotation: '0 90 0',
+        scale: '90 90 90',
+        rotation: '180 90 180',
         info: 'Blusa2',
     },
     {
