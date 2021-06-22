@@ -19,7 +19,7 @@ function staticLoadPlaces() {
 }
 
 
-var model = [
+var models = [
     {
         url: 'blusa1.glb',
         scale: '0.5 0.5 0.5',
